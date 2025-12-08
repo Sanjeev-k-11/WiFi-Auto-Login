@@ -10,7 +10,7 @@
   "content_scripts": [
     {
       "matches": [
-        "*://internet.lpu.in/24online/webpages/client.jsp*"
+        "*://*"
       ],
       "js": ["content.js"]
     }
