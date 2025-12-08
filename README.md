@@ -1,0 +1,85 @@
+# 📶 WiFi Auto Login (Chrome Extension)
+
+Automatically logs into the ** captive portal** and connects internet without typing username and password every time.
+
+---
+
+## 🚀 Features
+- Auto-fill username
+- Auto-fill password
+- Auto-agree Terms & Conditions
+- Auto-click login
+- Works after disconnection
+- Works every time WiFi portal appears
+
+---
+
+## 🔥 How it Works
+
+1️⃣ Click the extension icon  
+2️⃣ Enter username and password  
+3️⃣ Click **Save**  
+
+After that:
+- Extension auto fills login details
+- Auto agrees policy
+- Auto clicks login button
+- Internet connects without typing
+
+---
+
+## 🛠 Installation (Developer Mode)
+
+1. Clone or download this repository  
+```sh
+git clone https://github.com/Sanjeev-k-11/WiFi-Auto-Login.git
+```
+## Go to Chrome
+
+```
+chrome://extensions/
+```
+- Turn ON Developer mode
+- Click Load Unpacked
+- Select this project folder
+
+## 📂 Folder Structure
+```
+Extension
+├── manifest.json
+├── popup.html
+├── popup.js
+├── content.js
+├── background.js
+└── icon.png
+```
+## 🧰 Tech Used
+
+- JavaScript
+- Chrome Manifest V3
+- Chrome Storage API
+- Content Scripts
+
+## 🔐 Privacy Notice
+
+- Credentials stored locally on your browser
+- No external server
+- No third-party tracking
+- No analytics
+- 100% local
+## ⚠ Disclaimer
+
+- This is a personal utility tool created for educational purposes only.
+
+## 📌 Author
+```
+Sanjeev Kumar
+```
+## GitHub
+```
+https://github.com/Sanjeev-k-11
+```
+## ⭐ Show Support
+```
+Please ⭐ star the repo if you found this useful ❤
+```
