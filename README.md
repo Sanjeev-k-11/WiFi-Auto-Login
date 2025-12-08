@@ -13,6 +13,10 @@ Automatically logs into the ** captive portal** and connects internet without ty
 - Works every time WiFi portal appears
 
 ---
+<img width="620" height="324" alt="image" src="https://github.com/user-attachments/assets/c0ec1a68-1dfd-4c7c-96ae-5d00c151177e" />
+
+<img width="299" height="257" alt="image" src="https://github.com/user-attachments/assets/4a3c06c2-23a7-40f1-bc39-39509120986a" />
+
 
 ## 🔥 How it Works
 
