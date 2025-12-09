@@ -1,13 +1,111 @@
 <!DOCTYPE html>
 <html>
-<body style="text-align:center;font-family:Arial;padding:20px">
+<head>
+<style>
 
-<h2> WiFi Auto Login</h2>
+body{
+  font-family: 'Poppins', sans-serif;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:300px;
+  background: linear-gradient(135deg,#6A85B6,#BAC8E0);
+  margin:0;
+}
 
-<input id="user" placeholder="Username"><br><br>
-<input id="pass" type="password" placeholder="Password"><br><br>
+#card{
+  width:280px;
+  padding:25px;
+  border-radius:18px;
+  backdrop-filter: blur(10px);
+  background: rgba(255,255,255,0.15);
+  border:1px solid rgba(255,255,255,0.35);
+  box-shadow:0 8px 20px rgba(0,0,0,0.2);
+  text-align:center;
+  animation: fade 0.6s ease;
+}
 
-<button id="save">Save</button>
+h2{
+  color:#fff;
+  margin-bottom:18px;
+  letter-spacing:1px;
+}
+
+input{
+  width:100%;
+  padding:12px;
+  border-radius:10px;
+  border:none;
+  outline:none;
+  background:rgba(255,255,255,0.75);
+  margin-bottom:12px;
+  font-size:15px;
+  color:#333;
+}
+
+input:focus{
+  background:white;
+  box-shadow:0 0 8px rgba(255,255,255,0.8);
+}
+
+button{
+  width:100%;
+  padding:12px;
+  border:none;
+  border-radius:10px;
+  background:linear-gradient(135deg,#66a3ff,#3366ff);
+  color:white;
+  font-size:15px;
+  cursor:pointer;
+  font-weight:600;
+  transition:0.3s;
+}
+
+button:hover{
+  transform:translateY(-2px);
+  opacity:0.9;
+}
+
+#removeBtn{
+  background:linear-gradient(135deg,#ff7373,#e53935);
+}
+
+p{
+  color:white;
+  font-size:17px;
+  margin-bottom:15px;
+}
+
+@keyframes fade{
+  from{opacity:0;transform:translateY(10px);}
+  to{opacity:1;transform:translateY(0);}
+}
+
+.fadein{
+  animation:fade 0.5s ease;
+}
+
+</style>
+</head>
+
+<body>
+<div id="card" class="fadein">
+
+<h2>WiFi Auto Login</h2>
+
+<div id="form">
+  <input id="user" placeholder="Username">
+  <input id="pass" type="password" placeholder="Password">
+  <button id="save">Save</button>
+</div>
+
+<div id="savedSection" style="display:none">
+  <p>Saved ✔</p>
+  <button id="updateBtn">Update</button>
+  <button id="removeBtn">Remove</button>
+</div>
+
+</div>
 
 <script src="popup.js"></script>
 
