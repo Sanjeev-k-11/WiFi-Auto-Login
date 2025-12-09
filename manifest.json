@@ -10,7 +10,7 @@
   "content_scripts": [
     {
       "matches": [
-        "*://*"
+        "*:// here you can add link *" 
       ],
       "js": ["content.js"]
     }
